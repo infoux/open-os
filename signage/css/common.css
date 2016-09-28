@@ -1,0 +1,655 @@
+@charset "utf-8";
+
+/* Infomind Default CSS : Last Update : 2016-07-14 */
+
+
+/*font*/
+
+html {
+    font-size: 28px;
+    letter-spacing: -1px;
+    background: #2b303b;
+}
+
+body {
+    font-family: "Malgun Gothic", "맑은고딕", sans-serif;
+    color: #333;
+}
+
+
+/*button*/
+
+.btn-area {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+/*button Size*/
+
+.btn.btnS {
+    padding: 0 16px;
+}
+
+.btn.btnM {
+    padding: 0 30px;
+    font-size: 28px;
+}
+
+.btn.btnB {
+    padding: 0 40px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.btn.btnF {
+    width: 100%;
+    padding: 0 40px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+/*button Color*/
+
+.btn.default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn.main {
+    background-color: #ff6600;
+}
+
+.btn.sub {
+    background-color: #1c1f26;
+}
+
+.btn.extra {
+    background-color: #e2e2e2;
+    color: #666;
+}
+
+
+/*header*/
+
+header {
+    position: relative;
+    border-bottom: 2px solid #1f2127;
+    height: 100px;
+    background: #2b303b;
+    line-height: 100px;
+    color: #fff;
+}
+
+header h1 {
+    padding-left: 110px;
+    font-size: 39px;
+    border-bottom: 2px solid #444;
+}
+
+header h1 i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 90px;
+    height: 100px;
+    line-height: 100px !important;
+    background: #ff6600;
+    margin: 0;
+}
+
+header ul {
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+header ul li {
+    display: inline-block;
+    color: #999;
+}
+
+header ul li i {
+    color: #fff;
+    margin-left: 20px;
+}
+
+header ul li i.um-sun-o {
+    color: #ffcc00;
+}
+
+header ul li i.um-cloud {
+    color: #ccc;
+}
+
+header ul li i.um-cloud-ellipsis, header ul li i.um-cloud-rain-o {
+    color: #448aca;
+}
+
+section.content .greeting {
+    width: 100%;
+    height: 606px;
+    background: url('../images/img-intro.png') no-repeat center;
+    display: table;
+}
+
+section.content .greeting h3 {
+    color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #333;
+    font-weight: 600;
+}
+
+section.content .video {
+    position: relative;
+    height: 606px;
+    overflow: hidden;
+    background: #000;
+    text-align: center;
+}
+
+section.content .video video {
+    width: auto;
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+section.content .btnSet {
+    margin: 100px 0 0;
+}
+
+section.content .btnSet a {
+    display: inline-block;
+    position: relative;
+    margin: 20px 160px;
+    padding: 0 40px;
+    width: calc(100% - 320px);
+    height: 130px;
+    font-size: 50px;
+    line-height: 118px;
+    font-weight: 600;
+    color: #00bdf7;
+    border-radius: 65px;
+    border: 6px solid #00bdf7;
+}
+
+section.content .btnSet a i {
+    display: block;
+    position: absolute;
+    font-size: 28px;
+    right: 40px;
+    top: 0;
+    color: #ccc;
+    font-weight: 400;
+}
+
+section.content .btnSet a:hover, section.content .btnSet a:active {
+    background: #00bdf7;
+    color: #fff
+}
+
+section.content .btnSet a:hover i, section.content .btnSet a:active i {
+    color: #000
+}
+
+section.content .btnSet h2 {
+    display: inline-block;
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    padding: 104px 40px 40px 174px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: #666;
+    background: url('../images/logo-jeju.png') no-repeat #fff 50px 20px;
+}
+
+section.content .btnSet h2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: -60px;
+    width: 318px;
+    height: 234px;
+    background: url('../images/img-main.png') no-repeat;
+}
+
+section.content .step {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    padding: 30px 50px;
+}
+
+section.content .step h3 {
+    display: inline-block;
+    font-size: 42px;
+    color: #ffcc00;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+section.content .step ul.stepNav {
+    margin-bottom: 50px;
+}
+
+section.content .step ul.stepNav:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: -120px;
+    width: 318px;
+    height: 234px;
+    background: url('../images/img-main.png') no-repeat;
+}
+
+section.content .step ul.stepNav li {
+    display: inline-block;
+    position: relative;
+    font-weight: 200;
+    padding: 0 40px;
+    font-size: 40px;
+    color: #4b505c;
+}
+
+section.content .step ul.stepNav li:after {
+    content: ">";
+    display: block;
+    position: absolute;
+    color: #4b505c;
+    right: 6px;
+    top: 0;
+}
+
+section.content .step ul.stepNav li:last-child::after {
+    content: "";
+}
+
+section.content .step ul.stepNav li i {
+    position: absolute;
+    font-size: 16px;
+    left: 0;
+    top: 0;
+}
+
+section.content .step ul.stepNav li strong {
+    display: block;
+    font-size: 26px;
+}
+
+section.content .step ul.stepNav li.active {
+    color: #fff;
+    font-size: 54px;
+    padding: 0 50px;
+}
+
+section.content .step ul.stepNav li.active:after {
+    color: #fff;
+}
+
+section.content .step ul.stepNav li.active i {
+    color: #ccc;
+    font-size: 20px;
+}
+
+section.content .step ul.stepNav li.active strong {
+    color: #00bdf7;
+    font-size: 38px;
+}
+
+section.content .step .infoText {
+    background: #1c1f26;
+    padding: 30px;
+    height: 216px;
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    border-radius: 40px;
+    line-height: 1.4;
+}
+
+section.content .step .infoText div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+section.content .step .infoText p.error {
+    color: #ff6600;
+}
+
+section.content .step .infoText p.complet {
+    color: #ffcc00;
+}
+
+section.content .step div.tickets {
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    height: 582px;
+    overflow: hidden;
+}
+
+section.content .step div.tickets .select {
+    display: inline-block;
+    position: relative;
+    margin: 10px 0;
+    padding: 20px 40px 40px;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #00bdf7;
+    border-radius: 60px;
+    border: 6px solid #00bdf7;
+}
+
+section.content .step div.tickets .select strong {
+    position: absolute;
+    right: 280px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+section.content .step div.tickets .select p {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+section.content .step div.tickets .select ul {
+    position: absolute;
+    right: 30px;
+    bottom: 84px;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 200px;
+    color: #ffcc00;
+}
+
+section.content .step div.tickets .select ul li.num {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+section.content .step div.tickets .select ul a {
+    position: absolute;
+    top: 0;
+    display: block;
+    color: #00bdf7;
+}
+
+section.content .step div.tickets .select ul li.plus a {
+    left: 0;
+}
+
+section.content .step div.tickets .select ul li.minus a {
+    right: 0;
+}
+
+section.content .step div.tickets .select ul a:active {
+    color: #fff;
+}
+
+section.content .step div.tickets .payment {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 19px 0;
+}
+
+section.content .step div.tickets .payment li {
+    display: inline-block;
+}
+
+section.content .step div.tickets .payment a {
+    color: #00bdf7;
+    display: block;
+    font-size: 6rem;
+    border: 6px solid #00bdf7;
+    border-radius: 30px;
+    padding: 20px 30px 30px;
+    margin: 14px;
+}
+
+section.content .step div.tickets .payment a:active {
+    background: #00bdf7;
+    color: #fff
+}
+
+section.content .step div.tickets .payment strong {
+    display: block;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+section.content .step div.tickets .infoImg {
+    text-align: center;
+    padding: 60px 0 0;
+    position: relative;
+}
+
+section.content .step div.tickets .infoImg p {
+    display: block;
+    position: absolute;
+    color: #ffcc00;
+    right: 40px;
+    top: 180px;
+    font-size: 160px;
+    animation: arrow 2s 1s infinite ease-in-out alternate
+}
+
+@keyframes arrow {
+    from {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: 80px;
+    }
+    to {
+        pargin-top: 0;
+    }
+}
+
+section.content .step div.tickets .total {
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    height: 140px;
+    line-height: 140px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 40px;
+    width: 100%;
+    border-radius: 60px;
+}
+
+section.content .step div.tickets .total.center {
+    text-align: center;
+}
+
+section.content .step div.tickets .total p {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+section.content .step div.tickets .total strong {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #ff6600;
+}
+
+section.content .step div.tickets .total .btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 50px;
+    height: 100px;
+    line-height: 100px;
+}
+
+section.content .step div.reservInput {
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    height: 582px;
+    overflow: hidden;
+}
+
+section.content .step div.reservInput input {
+    width: 100%;
+    height: 60px;
+    margin: 40px 0;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+.keypad {
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.keypad button {
+    float: left;
+    background: #fff;
+    width: calc(100% / 3);
+    border: 1px solid #ccc;
+    border-left: none;
+    border-top: none;
+    height: 70px;
+    font-weight: 800;
+}
+
+.keypad button.fn {
+    background: #eee;
+}
+
+.keypad button:nth-child(3n) {
+    border-right: none;
+}
+
+.keypad button:active {
+    background: #00bdf7;
+    color: #fff;
+}
+
+.keypad button:hover {
+    outline: none;
+    -ms-user-select: none;
+}
+
+.keypad button i {
+    margin: 0 10px;
+    position: relative;
+    top: -2px;
+}
+
+.keypad button.next {
+    width: calc(100% / 3 * 2);
+    background: #ff6600;
+    color: #fff;
+}
+
+.keypad button.back {
+    background: #555;
+    color: #fff;
+    border-right: none;
+}
+
+.keypad button.next:active, .keypad button.back:active {
+    background: #000;
+}
+
+section.content .step div.reservInput>div {
+    border: 6px solid #00bdf7;
+    position: relative;
+    border-radius: 30px;
+    float: left;
+    text-align: center;
+    color: #00bdf7;
+    ;
+    width: calc(50% - 20px);
+    height: 100%;
+    padding: 20px;
+}
+
+section.content .step div.reservInput .barcode {
+    margin-right: 40px;
+}
+
+section.content .step div.reservInput .barcode i {
+    font-size: 200px;
+    margin-top: 50px;
+}
+
+section.content .step div.reservInput .barcode p {
+    display: block;
+    position: absolute;
+    color: #ffcc00;
+    left: 40px;
+    top: 180px;
+    font-size: 160px;
+    animation: arrow 2s 1s infinite ease-in-out alternate
+}
+
+footer {
+    border-top: 1px solid #1c1f26;
+    background: #2b303b;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 40px 40px;
+}
+
+footer a.btn {
+    color: #00bdf7;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+}
+
+footer a.btn strong {
+    padding-left: 10px;
+}
+
+footer a.btn i {
+    position: relative;
+    top: -3px;
+}

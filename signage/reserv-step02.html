@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>무인발권기</title>
+    <link href="css/set.css" rel="stylesheet">
+    <link href="css/fontium.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <!-- javaScript  -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+
+<body class="main">
+    <!-- S:header -->
+    <header id="header">
+        <h1><i class="fonti um-bullhorn"></i><strong>신용카드 결제 전용</strong></h1>
+        <ul>
+            <li class="date">2016년 09월 20일</li>
+            <li class="weather">비<i class="fonti um-cloud-rain-o um-2x"></i></li>
+            <!--
+            날씨 아이콘
+
+            <li class="weather">맑음<i class="fonti um-sun-o um-2x"></i></li>
+            <li class="weather">구름조금<i class="fonti um-cloud-partly-o um-2x"></i></li>
+            <li class="weather">구름많음<i class="fonti um-cloud um-2x"></i></li>
+            <li class="weather">흐림<i class="fonti um-cloud-ellipsis um-2x"></i></li>
+            <li class="weather">비<i class="fonti um-cloud-rain-o um-2x"></i></li>
+            <li class="weather">비/눈<i class="fonti um-cloud-snow-alt-o um-2x"></i></li>
+            <li class="weather">눈/비<i class="fonti um-cloud-sleet-o um-2x"></i></li>
+            <li class="weather">눈<i class="fonti um-cloud-snow-o um-2x"></i></li>
+            -->
+        </ul>
+    </header>
+    <!-- E:header -->
+    <!-- S:mainContent -->
+    <section class="content step01">
+        <h2 class="sr-only">홍보 영역</h2>
+        <!--
+        <article class="greeting">
+            <h3>천지연폭포에 오신걸 환영합니다.</h3> </article>
+        -->
+        <article class="video">
+            <h3 class="sr-only">홍보 동영상</h3>
+            <video autoplay loop>
+                <source src="http://www.visitjeju.net/jtotour/video/video01.mp4">
+            </video>
+        </article>
+
+        <article class="step">
+            <h3>서귀포시 천지연폭포</h3>
+            <ul class="stepNav">
+                <li><i>step<strong>01</strong></i>예매자인증</li>
+                <li class="active"><i>step<strong>02</strong></i>예매티켓확인</li>
+                <li><i>step<strong>03</strong></i>티켓</li>
+            </ul>
+            <div class="infoText">
+                <div>
+                    <p class="complet">예매번호 : 003546351365432 </p>
+                </div>
+            </div>
+            <div class="tickets">
+                <div class="select">
+                    <h4>성인(일반) <strong>2,000원</strong></h4>
+                    <p></p>
+                    <ul>
+                        <li class="num">2</li>
+                        <li class="plus"><a href="#"><i class="fonti um-plus-circle"></i></a></li>
+                        <li class="minus"><a href="#"><i class="fonti um-minus-circle"></i></a></li>
+                    </ul>
+                </div>
+                <div class="select">
+                    <h4>청소년(일반) <strong>1,000원</strong></h4>
+                    <p>13세 부터 18세 까지</p>
+                    <ul>
+                        <li class="num">2</li>
+                        <li class="plus"><a href="#"><i class="fonti um-plus-circle"></i></a></li>
+                        <li class="minus"><a href="#"><i class="fonti um-minus-circle"></i></a></li>
+                    </ul>
+                </div>
+                <div class="select">
+                    <h4>어린이(일반) <strong>1,000원</strong></h4>
+                    <p>8세 부터 12세 까지</p>
+                    <ul>
+                        <li class="num">2</li>
+                        <li class="plus"><a href="#"><i class="fonti um-plus-circle"></i><strong class="sr-only">더하기</strong></a></li>
+                        <li class="minus"><a href="#"><i class="fonti um-minus-circle"></i><strong class="sr-only">빼기</strong></a></li>
+                    </ul>
+                </div>
+                <div class="total">
+                    <p>선택된 티켓 수량
+                        <strong>4</strong>
+                    </p>
+                    <p>선택된 티켓 금액
+                        <strong>6,000원</strong>
+                    </p>
+                    <p><a class="btn btnB main" href="step02.html">티켓출력</a></p>
+                </div>
+            </div>
+    </section>
+    <!-- E:mainContent -->
+    <!-- S:footer -->
+    <footer class="footer">
+        <a class="btn btnB sub" href="#"><i class="fonti um-home"></i><strong>홈으로</strong></a>
+        <a class="btn btnB sub" href="#"><i class="fonti um-call"></i><strong>직원호출</strong></a>
+    </footer>
+    <!-- E:footer -->
+</body>
+
+</html>
